@@ -1,0 +1,30 @@
+public class variables {
+	static int b=30;   //static keyword to be used for the static variable
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// variable is container used to store data.lets see its declaration:
+		
+		int a=20; // here int is a data type and a is the VARIABLE .
+		
+		System.out.println(a); // by just calling the variable we can get the data value.
+		
+		
+		System.out.println(b); // calling b variable
+
+	}
+
+}
+
+/*
+ * The variable is of two types:
+ * 1.Global;		2.Local
+ * farther Global : 1.Instance(non-static){## Inside class and out side of method};
+ *  				2.Class(static){## a variable doesn't need a method to call}
+ *  
+ * farther Local  : 1.Local{## Inside class and method};
+ * 					2.parameter{## Inside the method }	
+ * 
+ * 
+ */
